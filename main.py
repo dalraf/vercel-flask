@@ -5,12 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello, world !!'
-
-
-@app.route('/test')
-def test():
-    return 'Test'
+    return 'Minha primeira aplicação flask na vercel!'
 
 @app.route('/result')
 def result():
